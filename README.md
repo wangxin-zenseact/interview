@@ -1,14 +1,14 @@
 ### Python
 ##### Code A
  ```python
-a = {"x": 1}
+b = {"x": 1}
 def fun(a):
     print(a["x"])
     a["x"] = 2
     print(a["x"])
 
-fun(a)
-print(a["x"])
+fun(b)
+print(b["x"])
 ```
 ##### Code B
 ```python
